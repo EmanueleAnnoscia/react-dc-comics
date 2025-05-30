@@ -3,22 +3,30 @@
   background-color: #111;
   color: white;
   background-image: url("/footer-bg.jpg");
-  /* background-image: url("/dc-logo-bg.png");
-  background-repeat: no-repeat; */
-  background-size: 50%;
+  /* background-image: url("/dc-logo-bg.png");*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
   
 }
 
-
-  
+.logoDC {
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+  width: 300px;
+  transform: rotate(-20deg);
+  opacity: 0.65;
+}
 
 .footerTop {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   padding: 2rem 1rem;
   max-width: 80%;
   margin: 0 auto;
   align-items: start;
+  gap: 0.5rem;
   
 }
 
@@ -29,17 +37,26 @@
 .footerColumn ul {
   list-style: none;
   padding: 0;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
 }
 
 .footer-column li {
   margin-bottom: 0.3rem;
-  font-size: 0.5rem;
+  
+  
 }
 
 .footerBanner {
   background-color: black;
   width: 100%;
 }
+
+.socials p {
+  color: aqua;
+}
+
 
 .footerBannerInner {
   display: flex;

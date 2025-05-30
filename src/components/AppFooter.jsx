@@ -15,14 +15,21 @@ function Footer() {
             <li>Videos</li>
             <li>News</li>
           </ul>
-        </div>
-        <div className={styles.footerColumn}>
+
           <h4>SHOP</h4>
           <ul>
             <li>Shop DC</li>
             <li>Shop DC Collectibles</li>
           </ul>
+
         </div>
+        {/* <div className={styles.footerColumn}>
+          <h4>SHOP</h4>
+          <ul>
+            <li>Shop DC</li>
+            <li>Shop DC Collectibles</li>
+          </ul>
+        </div> */}
         <div className={styles.footerColumn}>
           <h4>DC</h4>
           <ul>
@@ -49,16 +56,17 @@ function Footer() {
           <div className={styles.footerBannerInner}>
             <button className={styles.signup}>SIGN-UP NOW!</button>
             <div className={styles.socials}>
-              FOLLOW US
+              <p>FOLLOW US</p>
               <ul>
                 <li><img src="/footer-facebook.png" alt="" /></li>
-                <li><img src="/footer-facebook.png" alt="" /></li>
-                <li><img src="/footer-facebook.png" alt="" /></li>
-                <li><img src="/footer-facebook.png" alt="" /></li>
-                <li><img src="/footer-facebook.png" alt="" /></li>
+                <li><img src="/footer-periscope.png" alt="" /></li>
+                <li><img src="/footer-pinterest.png" alt="" /></li>
+                <li><img src="/footer-twitter.png" alt="" /></li>
+                <li><img src="/footer-youtube.png" alt="" /></li>
               </ul>
             </div>
           </div>
+           <img src="/dc-logo.png" alt="DC Logo" className={styles.logoDC} />
         </div>
     </div>
   </footer>
