@@ -3,8 +3,10 @@
   background-color: #111;
   color: white;
   background-image: url("/footer-bg.jpg");
-  background-size: cover;
- 
+  /* background-image: url("/dc-logo-bg.png");
+  background-repeat: no-repeat; */
+  background-size: 50%;
+  
 }
 
 
@@ -14,24 +16,24 @@
   display: flex;
   justify-content: space-around;
   padding: 2rem 1rem;
-   max-width: 80%;
+  max-width: 80%;
   margin: 0 auto;
-  
+  align-items: start;
   
 }
 
-.footer-column h4 {
-  margin-bottom: 0.5rem;
+.footerColumn h4 {
+  margin-bottom: 0.7rem;
 }
 
-.footer-column ul {
+.footerColumn ul {
   list-style: none;
   padding: 0;
 }
 
 .footer-column li {
   margin-bottom: 0.3rem;
-  font-size: 0.65rem;
+  font-size: 0.5rem;
 }
 
 .footerBanner {
