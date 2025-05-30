@@ -1,0 +1,71 @@
+.footer {
+  width: 100%;
+  background-color: #111;
+  color: white;
+  background-image: url("/footer-bg.jpg");
+  background-size: cover;
+ 
+}
+
+
+  
+
+.footerTop {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+   max-width: 80%;
+  margin: 0 auto;
+  
+  
+}
+
+.footer-column h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 0.3rem;
+  font-size: 0.65rem;
+}
+
+.footerBanner {
+  background-color: black;
+  width: 100%;
+}
+
+.footerBannerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.socials ul {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.socials li img {
+  width: 24px; /* o come preferisci */
+  height: 24px;
+}
+
+
+.signup {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}

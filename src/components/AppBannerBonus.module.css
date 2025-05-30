@@ -1,0 +1,30 @@
+.banner {
+  width: 100%;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  
+
+ 
+}
+
+.boxElem{
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 0;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.item img {
+  width: 30px;
+  height: 30px;
+}
