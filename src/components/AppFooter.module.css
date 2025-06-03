@@ -48,6 +48,11 @@
   
 }
 
+.socials{
+  display: flex;
+  gap: 10px;
+}
+
 .footerBanner {
   background-color: black;
   width: 100%;
@@ -83,7 +88,7 @@
 
 .signup {
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid rgb(52, 110, 255);
   padding: 0.5rem 1rem;
   color: white;
   cursor: pointer;
