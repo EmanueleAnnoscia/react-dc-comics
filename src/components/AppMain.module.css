@@ -13,3 +13,34 @@
   align-items: center;
   font-size: 1.4rem;
 }
+
+
+.jumboImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+.comicCard {
+  width: calc(100% / 6 - 1rem);
+  color: white;
+}
+
+.comicCard img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.contentBox button {
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #0282f9;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
