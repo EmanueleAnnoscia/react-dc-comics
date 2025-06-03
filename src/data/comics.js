@@ -59,7 +59,7 @@ const comics = [
     id: 5,
     title: "Batman #56",
     description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-    thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+    thumb: "https://imgs.search.brave.com/YET9wY29Aa29TyHqlbieS9qsz3HWyNYQx-WkRqdBRX4/rs:fit:640:984:1/g:ce/aHR0cDovL2dldHlv/dXJjb21pY29uLmNv/LnVrL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE2LzA4L2JhdGdp/cmwtcmViaXJ0aC0x/LWNvdmVyLmpwZw",
     price: "$3.99",
     series: "Batman",
     sale_date: "2018-10-03",
@@ -153,4 +153,48 @@ const comics = [
   },
 ];
 
-export default comics
+
+const bannerLogo =[
+  {
+    src:"/buy-comics-digital-comics.png",
+    alt:"digital comics",
+    title:"DIGITAL COMICS"
+
+  },
+  {
+    src:"/buy-comics-digital-comics.png",
+    alt:"digital comics",
+    title:"DIGITAL COMICS"
+
+  },
+  {
+    src:"/buy-comics-merchandise.png",
+    alt:"dC MERCHANDISE",
+    title:"DC MERCHANDISE"
+
+  },
+  {
+    src:"/buy-comics-subscriptions.png",
+    alt:"SUBSCRIPTION",
+    title:"SUBS CRIPTION"
+
+  },
+  {
+    src:"/buy-comics-shop-locator.png",
+    alt:"COMIC SHOP LOCATOR",
+    title:"COMIC SHOP LOCATOR"
+
+  },
+  {
+    src:"/buy-dc-power-visa.svg",
+    alt:"DC POWER VISA",
+    title:"DC POWER VISA"
+
+  }
+  
+]
+
+
+
+export {comics, bannerLogo}
+
